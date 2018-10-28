@@ -3,6 +3,7 @@
 ; FASTCALL!
 ; ECX = hMemDest
 ; EDX = hMemSrc
+; PUSH memLEN
 proc i_memcpy
      push ecx
      mov esi,edx
